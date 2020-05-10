@@ -1,0 +1,13 @@
+#User input
+while True: 
+    try:
+        user_input = int(input("Enter number (1 - 50): ")) #int
+        if user_input == np.random.randint(1, 50):
+            print("Good")
+        elif user_input != np.random.randint(1, 50):
+            print("no bro")
+        break
+    except ValueError:
+        print("number, dumbass")
+
+print(np.random.randint(1, 50))
