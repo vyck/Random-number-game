@@ -1,4 +1,5 @@
 #User input
+import numpy as np
 while True: 
     try:
         user_input = int(input("Enter number (1 - 50): ")) #int
