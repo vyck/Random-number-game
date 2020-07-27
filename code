@@ -11,4 +11,4 @@ while True:
     except ValueError:
         print("number, dumbass")
 
-print(np.random.randint(1, 50))
+    print(np.random.randint(1, 50))
